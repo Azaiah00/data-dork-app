@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .home-page {
+    min-height: 100vh;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 72px); /* Adjust based on your banner height */
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #61dafb;
+    color: #000000;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #4fa8d5;
+  }
+  
